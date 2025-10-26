@@ -1,1 +1,11 @@
-I'm Pavle and I have over 3 years of experience in game development.
+I am a game developer from Belgrade with over 3 years of hands-on experience building games in Unity (C#), Unreal Engine 5 (C++/Blueprints), and Love2D/Lua. I began making games at age 15 and started working professionally with paid clients in 2022, primarily through Upwork and direct collaborations with studios.
+
+I have released three games on Steam as the lead developer — Icetwine (2025, Unity), Silly Billy (2024, UE5), and Cody’s Nightmare (2023, Unity). These projects demonstrate my ability to design complete gameplay systems, architect scalable codebases, and ship commercial products to a global audience.
+
+Beyond Steam projects, I have delivered multiple client work projects across PC and mobile platforms, focusing on gameplay systems, mechanics programming, smooth UX, clean architecture, and development best practices using Git and Agile workflows.
+
+I have worked as a game developer at Afternoon Games since 2022 and also contributed professionally at studios such as Code Alkonost and Piccolo Studio. My work includes real-time combat design, AI behavior, interaction systems, and engine-level optimization.
+
+Recently, I began expanding into AI development — specifically agentic AI systems — and also studied web fundamentals through The Odin Project to broaden my engineering versatility.
+
+I specialize in fast prototyping, gameplay architecture, AI behavior systems, and building full indie-ready games from concept to launch.
