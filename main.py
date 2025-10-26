@@ -38,7 +38,17 @@ Start coaching now.
         """.strip()
 
     def chat(self, message, history):
-        messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
+        formatted_history = []
+        for user_msg, assistant_msg in history:
+            formatted_history.append({"role": "user", "content": user_msg})
+            formatted_history.append({"role": "assistant", "content": assistant_msg})
+
+        messages = (
+            [{"role": "system", "content": self.system_prompt()}]
+            + formatted_history
+            + [{"role": "user", "content": message}]
+        )
+
         response = self.client.chat.completions.create(
             model="gpt-4o-mini",
             messages=messages
